@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Kumar Reddy | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="c-circle" id="cc"></div>
+<div class="c-dot" id="cd"></div>
+<canvas id="bg-canvas"></canvas>
+
+<!-- Loader -->
+<div id="loader" class="loader-hide">
+  <div class="l-name">
+    <span class="l-word">Dhanush</span>
+    <span class="l-word">Kumar Reddy</span>
+  </div>
+  <div class="l-bar-wrap"><div class="l-bar"></div></div>
+</div>
+
+<!-- Nav -->
+<nav>
+  <a href="#hero" class="nav-logo">D<em>K</em>R</a>
+  <div class="nav-right">
+    <a href="#about" class="nav-link"><span>About</span><span>About</span></a>
+    <a href="#skills" class="nav-link"><span>Skills</span><span>Skills</span></a>
+    <a href="#projects" class="nav-link"><span>Projects</span><span>Projects</span></a>
+    <a href="#education" class="nav-link"><span>Education</span><span>Education</span></a>
+    <a href="#resume" class="nav-link"><span>Resume</span><span>Resume</span></a>
+    <a href="resume.pdf" target="_blank" class="nav-link"><span>View CV</span><span>View CV</span></a>
+    <a href="#contact" class="nav-link"><span>Contact</span><span>Contact</span></a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="hero-meta-top">
+    <span class="hero-role">ML Engineer & CSE Student</span>
+    <span class="hero-loc">Lovely Professional University, Punjab</span>
+  </div>
+  <div class="hero-side">Portfolio — 2025</div>
+
+  <h1 class="hero-h">
+    <span class="ln"><span class="wd">Thummala</span></span>
+    <span class="ln"><span class="wd">Dhanush <em>Kumar</em></span></span>
+    <span class="ln"><span class="wd">Reddy</span></span>
+  </h1>
+
+  <div class="hero-lower">
+    <p class="hero-bio">Building intelligent systems where machine learning meets real-world impact — turning raw data into decisions that matter.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-f">View Projects ↗</a>
+      <a href="resume.pdf" target="_blank" class="btn btn-g">View CV</a>
+      <a href="#contact" class="btn btn-g">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="scroll-ind">
+    <div class="s-line"></div>
+    <span class="s-lbl">Scroll</span>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Marquee -->
+<div class="mq-wrap">
+  <div class="mq-track" id="mqt"></div>
+</div>
+
+<div class="hr"></div>
+
+<!-- About -->
+<section id="about" class="sw">
+  <div class="about-grid">
+    <div class="about-l r">
+      <h2 class="about-big">Turning data into <em>decisions</em> that move the needle.</h2>
+      <p class="about-body">I'm a Computer Science student specialising in Machine Learning and AI-driven product development. I build models that predict, systems that adapt, and pipelines that scale.</p>
+      <div class="stats">
+        <div><div class="stat-n">2</div><div class="stat-l">Live Projects</div></div>
+        <div><div class="stat-n">3</div><div class="stat-l">Certifications</div></div>
+      </div>
+    </div>
+    <div class="about-r" style="padding-top:8px;">
+      <p class="s-eyebrow r" style="margin-bottom:32px;">Who I am</p>
+      <p class="ab-body r">Currently pursuing B.Tech in Computer Science & Engineering at Lovely Professional University (since Aug 2023), with a strong foundation in Data Structures, Algorithms, and applied ML research.</p>
+      <p class="ab-body r" style="margin-top:20px;">My work spans healthcare prediction systems, intelligent inventory platforms, and full-stack ML pipelines — always grounded in rigorous evaluation and real business insight.</p>
+      <p class="ab-body r" style="margin-top:20px;">I train models with <span>TensorFlow</span>, <span>PyTorch</span>, and <span>Scikit-learn</span>, build APIs with <span>FastAPI</span>, and work across the entire pipeline from raw data to deployed insight.</p>
+    </div>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Skills -->
+<section id="skills" class="sw">
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:72px;" class="r">
+    <div>
+      <p class="s-eyebrow" style="margin-bottom:14px;">Capabilities</p>
+      <h2 class="s-title">Technical <em>Arsenal</em></h2>
+    </div>
+    <p style="font-size:.76rem;color:var(--muted);max-width:220px;text-align:right;line-height:1.75;">Tools and stacks powering every project.</p>
+  </div>
+  <div class="sk-grid">
+    <div class="sk-cell r">
+      <div class="sk-num">01</div>
+      <div class="sk-cat">Languages</div>
+      <div class="sk-div"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">Python</span><span class="sk-tag">C++</span>
+        <span class="sk-tag">C</span><span class="sk-tag">SQL</span><span class="sk-tag">Shell</span>
+      </div>
+    </div>
+    <div class="sk-cell r">
+      <div class="sk-num">02</div>
+      <div class="sk-cat">ML Frameworks</div>
+      <div class="sk-div"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">TensorFlow</span><span class="sk-tag">PyTorch</span>
+        <span class="sk-tag">Scikit-learn</span><span class="sk-tag">XGBoost</span>
+      </div>
+    </div>
+    <div class="sk-cell r">
+      <div class="sk-num">03</div>
+      <div class="sk-cat">Tools & Platforms</div>
+      <div class="sk-div"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">Jupyter</span><span class="sk-tag">VS Code</span>
+        <span class="sk-tag">Colab</span><span class="sk-tag">FastAPI</span>
+      </div>
+    </div>
+    <div class="sk-cell r">
+      <div class="sk-num">04</div>
+      <div class="sk-cat">Soft Skills</div>
+      <div class="sk-div"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">Problem Solving</span><span class="sk-tag">Team Player</span>
+        <span class="sk-tag">Adaptability</span><span class="sk-tag">Proj. Mgmt</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Projects -->
+<section id="projects" class="sw">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:72px;" class="r">
+    <div>
+      <p class="s-eyebrow" style="margin-bottom:14px;">Work</p>
+      <h2 class="s-title">Featured <em>Projects</em></h2>
+    </div>
+    <p style="font-size:.76rem;color:var(--muted);max-width:200px;text-align:right;line-height:1.75;">ML solving real operational challenges.</p>
+  </div>
+
+  <div class="pj-list">
+    <a href="https://github.com/Dhanushreddy5023/no-show-patients-prediction" target="_blank" class="pj-item r">
+      <div class="pj-num">01</div>
+      <div>
+        <div class="pj-name">No-Show Patients Prediction</div>
+        <div class="pj-sub">Healthcare · Machine Learning · Python</div>
+        <p class="pj-desc">Developed a system using ML techniques to analyze appointment data and identify factors influencing no-show rates. Built and evaluated classification models including Random Forest and XGBoost, achieving high recall to optimize scheduling and reduce missed appointments.</p>
+      </div>
+      <div class="pj-tags">
+        <span class="pj-tag">Logistic Regression</span>
+        <span class="pj-tag">Random Forest</span>
+        <span class="pj-tag">XGBoost</span>
+      </div>
+      <div class="pj-yr">Mar 2025</div>
+      <div class="pj-arr">↗</div>
+    </a>
+
+    <a href="https://github.com/Dhanushreddy5023/ai-inventory-system" target="_blank" class="pj-item r">
+      <div class="pj-num">02</div>
+      <div>
+        <div class="pj-name">AI-Powered Inventory Management</div>
+        <div class="pj-sub">AI Platform · FastAPI · Demand Forecasting</div>
+        <p class="pj-desc">An AI-driven platform leveraging FastAPI and XGBoost for predictive demand forecasting. Features a real-time KPI dashboard for stock monitoring, an automated restocking system, and a chatbot interface for actionable business insights.</p>
+      </div>
+      <div class="pj-tags">
+        <span class="pj-tag">FastAPI</span>
+        <span class="pj-tag">ML Forecasting</span>
+        <span class="pj-tag">Chatbot</span>
+      </div>
+      <div class="pj-yr">Apr 2025</div>
+      <div class="pj-arr">↗</div>
+    </a>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Resume Section -->
+<section id="resume" class="sw">
+  <div class="r">
+    <p class="s-eyebrow" style="margin-bottom:14px;">Credentials</p>
+    <h2 class="s-title r v">Technical <em>Curriculum</em></h2>
+    <div class="rs-box edu-card r v">
+      <div class="edu-yr">Credentials</div>
+      <div class="edu-deg">Detailed Curriculum</div>
+      <p class="edu-sch" style="font-size: 0.81rem; line-height: 1.6; max-width: 600px;">Explore the full breadth of my technical expertise, academic journey, and professional milestones in a refined, printable format.</p>
+      
+      <div class="rs-btns" style="margin-top: 24px; flex-direction: row; display: flex; gap: 12px;">
+        <a href="resume.pdf" target="_blank" class="btn btn-f rs-btn" style="padding: 11px 22px; font-size: 0.72rem;">View CV ↗</a>
+        <a href="resume.pdf" download class="btn btn-g rs-btn" style="padding: 11px 22px; font-size: 0.72rem;">Download CV ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Education -->
+<section id="education" class="sw">
+  <div class="r">
+    <p class="s-eyebrow" style="margin-bottom:14px;">Background</p>
+    <h2 class="s-title"><em>Education</em></h2>
+  </div>
+
+  <div class="edu-grid">
+    <div class="edu-card r">
+      <div class="edu-yr">Since Aug 2023 — Present</div>
+      <div class="edu-deg">B.Tech — Computer Science & Engineering</div>
+      <div class="edu-sch">Lovely Professional University, Punjab, India</div>
+      <span class="edu-badge">CGPA 6.9 / 10</span>
+    </div>
+    <div class="edu-card r">
+      <div class="edu-yr">Apr 2021 — Mar 2023</div>
+      <div class="edu-deg">Intermediate (Class XII)</div>
+      <div class="edu-sch">SR Jr. College, Ananthapur, Andhra Pradesh</div>
+      <span class="edu-badge">85%</span>
+    </div>
+  </div>
+
+  <div class="edu-wide r">
+    <div>
+      <div class="edu-yr">Mar 2021</div>
+      <div class="edu-deg">Matriculation (Class X)</div>
+      <div class="edu-sch">Saint Thomas High School, Ananthapur, A.P.</div>
+    </div>
+    <div style="display:flex;align-items:center;">
+      <span class="edu-badge" style="font-size:.8rem;padding:9px 18px;">100% — Perfect Score</span>
+    </div>
+    <div>
+      <div class="edu-yr" style="margin-bottom:10px;">Training</div>
+      <p style="font-size:.77rem;color:var(--muted);line-height:1.85;">Data Structures & Algorithms using Java — arrays, linked lists, trees, graphs, sorting, searching & complexity analysis.</p>
+    </div>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- Certs -->
+<section id="certs" class="sw">
+  <div class="r">
+    <p class="s-eyebrow" style="margin-bottom:14px;">Credentials</p>
+    <h2 class="s-title"><em>Certifications</em></h2>
+  </div>
+  <div class="ct-grid">
+    <div class="ct-card r">
+      <div class="ct-ico">🔐</div>
+      <div class="ct-name">Security and Protection</div>
+      <div class="ct-org">NPTEL</div>
+      <div class="ct-date">March 2025</div>
+    </div>
+    <div class="ct-card r">
+      <div class="ct-ico">🌐</div>
+      <div class="ct-name">Bits and Bytes of Computer Networking</div>
+      <div class="ct-org">Google</div>
+      <div class="ct-date">December 2023</div>
+    </div>
+    <div class="ct-card r">
+      <div class="ct-ico">☕</div>
+      <div class="ct-name">Data Structures & Algorithms in Java</div>
+      <div class="ct-org">Summer Training Program</div>
+      <div class="ct-date">July 2025</div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="r">
+    <h2 class="ct-big">Let's build<br><em>something</em><br>together.</h2>
+  </div>
+  <div class="ct-row">
+    <div class="ct-links r">
+      <a href="mailto:thummaladhanush@gmail.com" class="ct-link"><span class="ct-link-i">✉</span> thummaladhanush@gmail.com</a>
+      <a href="https://github.com/Dhanushreddy5023" target="_blank" class="ct-link"><span class="ct-link-i">⌥</span> github.com/Dhanushreddy5023</a>
+      <a href="https://linkedin.com/in/thummala-dhanush-kumar-reddy" target="_blank" class="ct-link"><span class="ct-link-i">⊞</span> linkedin — thummala-dhanush-kumar-reddy</a>
+      <a href="tel:+911234567388" class="ct-link"><span class="ct-link-i">◉</span> +91 1234 567 388</a>
+    </div>
+    <div class="ct-status-wrap r">
+      <div class="ct-s-lbl">Current Status</div>
+      <div class="ct-s"><span class="ct-s-dot"></span> Open to Internships & Collabs</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="ft-copy">© 2025 Thummala Dhanush Kumar Reddy</span>
+  <span class="ft-r">Crafted with <span>precision</span> · Punjab, India</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
